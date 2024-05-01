@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accordeon</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="accordion">
+      <h2 class="accordion-title">Questions fréquentes</h2>
+
+      <div class="content-container">
+        <div class="question">
+          Quel est l'impact du changement climatique sur notre environnement et
+          comment pouvons-nous y faire face ?
+        </div>
+        <div class="answer">
+          L'impact du changement climatique sur notre environnement est vaste et
+          complexe. Il se manifeste par des phénomènes tels que l'augmentation
+          des températures moyennes, la fonte des glaciers, l'élévation du
+          niveau de la mer, les événements météorologiques extrêmes et la perte
+          de biodiversité. Pour y faire face, nous devons prendre des mesures à
+          différents niveaux : individuel, communautaire, national et mondial.
+          Cela peut inclure des actions telles que la réduction des émissions de
+          gaz à effet de serre, l'adoption d'énergies renouvelables, la
+          conservation des écosystèmes naturels et l'adaptation aux changements
+          déjà en cours.
+        </div>
+      </div>
+      <div class="content-container">
+        <div class="question">
+          Quel est l'impact du changement climatique sur notre environnement et
+          comment pouvons-nous y faire face ?
+        </div>
+        <div class="answer">
+          L'impact du changement climatique sur notre environnement est vaste et
+          complexe. Il se manifeste par des phénomènes tels que l'augmentation
+          des températures moyennes, la fonte des glaciers, l'élévation du
+          niveau de la mer, les événements météorologiques extrêmes et la perte
+          de biodiversité. Pour y faire face, nous devons prendre des mesures à
+          différents niveaux : individuel, communautaire, national et mondial.
+          Cela peut inclure des actions telles que la réduction des émissions de
+          gaz à effet de serre, l'adoption d'énergies renouvelables, la
+          conservation des écosystèmes naturels et l'adaptation aux changements
+          déjà en cours.
+        </div>
+      </div>
+      <div class="content-container">
+        <div class="question">
+          Quel est l'impact du changement climatique sur notre environnement et
+          comment pouvons-nous y faire face ?
+        </div>
+        <div class="answer">
+          L'impact du changement climatique sur notre environnement est vaste et
+          complexe. Il se manifeste par des phénomènes tels que l'augmentation
+          des températures moyennes, la fonte des glaciers, l'élévation du
+          niveau de la mer, les événements météorologiques extrêmes et la perte
+          de biodiversité. Pour y faire face, nous devons prendre des mesures à
+          différents niveaux : individuel, communautaire, national et mondial.
+          Cela peut inclure des actions telles que la réduction des émissions de
+          gaz à effet de serre, l'adoption d'énergies renouvelables, la
+          conservation des écosystèmes naturels et l'adaptation aux changements
+          déjà en cours.
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script>
+    const accordion = document.getElementsByClassName("content-container");
+    for (let i = 0; i < accordion.length; i++) {
+      accordion[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+      });
+    }
+  </script>
+</html>
